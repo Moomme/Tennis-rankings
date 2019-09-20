@@ -1,0 +1,116 @@
+[INFO  - 2019-09-19T20:34:16.766Z] GhostDriver - Main - running on port 50257
+[INFO  - 2019-09-19T20:34:17.709Z] Session [da269680-db1c-11e9-8423-4582cf55bc07] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-09-19T20:34:17.710Z] Session [da269680-db1c-11e9-8423-4582cf55bc07] - page.customHeaders:  - {}
+[INFO  - 2019-09-19T20:34:17.710Z] Session [da269680-db1c-11e9-8423-4582cf55bc07] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-09-19T20:34:17.710Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: da269680-db1c-11e9-8423-4582cf55bc07
+[ERROR - 2019-09-19T20:34:19.924Z] Session [da269680-db1c-11e9-8423-4582cf55bc07] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new LiveScoresUpdater()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-09-19T20:34:19.925Z] Session [da269680-db1c-11e9-8423-4582cf55bc07] - page.onError - stack:
+  (anonymous function) (https://www.atptour.com/en/rankings/singles:115)
+  execCb (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:29)
+  check (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:18)
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:8)
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  v (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:7)
+  emit (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  check (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:19)
+  enable (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  init (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:17)
+  E (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:14)
+  completeLoad (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:28)
+  onScriptLoad (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:29)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-09-19T20:34:19.927Z] Session [da269680-db1c-11e9-8423-4582cf55bc07] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new Search')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-09-19T20:34:19.927Z] Session [da269680-db1c-11e9-8423-4582cf55bc07] - page.onError - stack:
+  (anonymous function) (https://www.atptour.com/en/rankings/singles:1049)
+  execCb (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:29)
+  check (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:18)
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:8)
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  v (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:7)
+  emit (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  check (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:19)
+  enable (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  init (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:17)
+  E (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:14)
+  completeLoad (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:28)
+  onScriptLoad (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:29)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-09-19T20:34:20.039Z] Session [da269680-db1c-11e9-8423-4582cf55bc07] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new Global()')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-09-19T20:34:20.039Z] Session [da269680-db1c-11e9-8423-4582cf55bc07] - page.onError - stack:
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/util/init.js?bust=637045002835883300:49)
+  execCb (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:29)
+  check (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:18)
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:8)
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  v (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:7)
+  emit (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  check (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:19)
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:8)
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  v (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:7)
+  emit (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  check (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:19)
+  enable (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  init (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:17)
+  E (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:14)
+  completeLoad (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:28)
+  onScriptLoad (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:29)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-09-19T20:34:20.366Z] Session [da269680-db1c-11e9-8423-4582cf55bc07] - page.onError - msg: [object Object]
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-09-19T20:34:20.366Z] Session [da269680-db1c-11e9-8423-4582cf55bc07] - page.onError - stack:
+  error (https://www.atptour.com/assets/atpwt/scripts/vendor/postscribe.min.js?bust=637045002835883300:3)
+  onerror (https://www.atptour.com/assets/atpwt/scripts/vendor/postscribe.min.js?bust=637045002835883300:3)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-09-19T20:34:20.366Z] Session [da269680-db1c-11e9-8423-4582cf55bc07] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'new RightRail')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-09-19T20:34:20.367Z] Session [da269680-db1c-11e9-8423-4582cf55bc07] - page.onError - stack:
+  (anonymous function) (https://www.atptour.com/en/rankings/singles:11545)
+  execCb (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:29)
+  check (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:18)
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:8)
+  (anonymous function) (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  v (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:7)
+  emit (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  check (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:19)
+  enable (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:23)
+  init (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:17)
+  E (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:14)
+  completeLoad (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:28)
+  onScriptLoad (https://www.atptour.com/assets/atpwt/scripts/vendor/require.js:29)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-09-19T20:34:20.367Z] Session [da269680-db1c-11e9-8423-4582cf55bc07] - page.onError - msg: [object Object]
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-09-19T20:34:20.367Z] Session [da269680-db1c-11e9-8423-4582cf55bc07] - page.onError - stack:
+  error (https://www.atptour.com/assets/atpwt/scripts/vendor/postscribe.min.js?bust=637045002835883300:3)
+  onerror (https://www.atptour.com/assets/atpwt/scripts/vendor/postscribe.min.js?bust=637045002835883300:3)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-09-19T20:39:16.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-09-19T20:44:16.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-09-19T20:49:16.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-09-19T20:54:16.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-09-19T20:59:16.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-09-19T21:04:16.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-09-19T21:09:16.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-09-19T21:14:16.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-09-19T21:19:16.765Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
