@@ -519,3 +519,6 @@ JavaScript error: https://aka-cdn.adtechus.com/apps/273/Ad10761489St3Sz225Sq2668
 1568969520554	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 1568969523183	Marionette	INFO	Listening on port 46541
 1568969523274	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8960, Gecko_IOThread] WARNING: pipe error (65): Connection reset by peer: file /build/firefox-gS7uvX/firefox-69.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 8960, Gecko_IOThread] WARNING: pipe error (101): Connection reset by peer: file /build/firefox-gS7uvX/firefox-69.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1568987927444	Marionette	INFO	Stopped listening on port 46541
