@@ -1,7 +1,8 @@
 from selenium import webdriver
 import html2text
+import json
 
-driver = webdriver.Firefox()
+driver = webdriver.Firefox(executable_path='/home/mohammad/Downloads/geckodriver')
 driver.get("https://www.atptour.com/en/rankings/singles")
 data = driver.find_element_by_class_name('mega-table').get_attribute('innerHTML')
 
@@ -20,8 +21,9 @@ lenl = len(l)
 print(lenl)
 for i in range(0, lenl, 5):
     print(i)
-    rankings[rank] = {"Name": str(l[i+0]).strip(), "Age": str(l[i+1]).strip(), "Points": str(l[i+2]).strip(), "Tourns Played": str(l[i+3]).strip()}
+    rankings[rank] = {"Name": str(l[i+0]).strip(), "Age": str(l[i+1]).strip(), "Points": str(l[i+2]).strip(), "Tourns": str(l[i+3]).strip(), "Rank": rank+1}
     rank += 1
 
-f = open("db.txt", 'w')
-f.write(str(rankings))
+#f = open('db.txt.', w)
+fjson = open("db.json", 'w')
+json.dump(rankings, fjson)
