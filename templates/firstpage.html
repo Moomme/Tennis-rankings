@@ -1,17 +1,22 @@
 {% extends "layout.html" %}
 {% block content %}
-    <h1 class="text-center">Hello, check out some Tennis rankings will ya</h1>
     <div class="container">
-        <div class="row">
-          <div class="col-sm alert alert-dark">
-            <a class="alert-link" href="/atp">ATP</a>
-          </div>
-          <div class="col-sm alert alert-dark">
-            <a class="alert-link" href="/atp">WTA</a>
-          </div>
-          <div class="col-sm alert alert-dark">
-            <a class="alert-link" href="/atp">ITF</a>
-          </div>
+      <div class="row align-middle">
+        <div class="col-sm-4 alert">
+          <a class="" href="/atp">
+            <img src="/static/atp_tour_logo.jpg" class="img-fluid" alt="ATP Tour logo">
+          </a>
+        </div>
+        <div class="col-sm-4 alert">
+          <a class="" href="/atp">
+            <img src="/static/wta_tour_logo.png" class="img-fluid" alt="WTA Tour logo">
+          </a>
+        </div>
+        <div class="col-sm-4 alert">
+          <a class="" href="/atp">
+            <img src="/static/itf_tour_logo.png" class="img-fluid" alt="ITF Tour logo">
+          </a>
         </div>
       </div>
+    </div>
 {% endblock content %}

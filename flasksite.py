@@ -16,7 +16,7 @@ def first():
 @app.route('/atp')
 def tennis():
     rankings = json.load(open('db.json'))
-    return  render_template('rankings.html', rankings=rankings, system='ATP')
+    return  render_template('rankings.html', rankings=rankings, system='ATP', len=len(rankings))
 
 if __name__ == '__main__':
     # In debug mode flask initilizes the app twice and therefore each job will be registered twice. 
